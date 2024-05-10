@@ -1,7 +1,22 @@
-# Tauri + React + Typescript
+# Hello-Tauri
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Tauriことはじめ用リポジトリ
 
-## Recommended IDE Setup
+.devcontainerで構築済み
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+コンテナに入ったら[localhost:8080](localhost:8080)でlite-desktopを開く
+
+bunをinstallする
+
+```
+curl -fsSL https://bun.sh/install | bash
+source $HOME/.bashrc
+```
+
+↓コマンドをlite-desktop上で叩くとtauriが起動する
+
+```
+bun tauri dev
+```
+
+フロントエンド側はhot reloadに対応しているが、Rust側は対応していない模様
