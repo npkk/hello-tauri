@@ -10,11 +10,11 @@
             "webPort": "6080",
             "vncPort": "5901"
         },
-        "node": {
+        "ghcr.io/devcontainers/features/node": {
             "version": "lts",
             "nodeGypDependencies": true
         },
-        "rust": {
+        "ghcr.io/devcontainers/features/rust": {
             "version": "latest",
             "profile": "minimal"
         }
